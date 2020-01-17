@@ -9,6 +9,7 @@
 // Import JavaScript modules
 import { registerSettings } from './module/settings.js';
 import { preloadTemplates } from './module/preloadTemplates.js';
+import { MarketConfig } from './module/app/market-config.js';
 
 /* ------------------------------------ */
 /* Initialize module					*/
@@ -23,7 +24,7 @@ Hooks.once('init', async function() {
 	
 	// Preload Handlebars templates
 	await preloadTemplates();
-
+	
 	// Register custom sheets (if any)
 });
 
