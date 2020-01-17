@@ -12,12 +12,13 @@
   "author": "",
   "license": "",
   "devDependencies": {
-    "foundry-pc-scripts": "gitlab:foundry-projects/foundry-pc/foundry-pc-scripts#master"
+    "foundry-pc-scripts": "gitlab:foundry-projects/foundry-pc/foundry-pc-scripts#master",
+    "foundry-pc-types": "gitlab:foundry-projects/foundry-pc/foundry-pc-types"
   },
   "foundry": {
-    "dataPath": "",
+    "dataPath": "C:\\Users\\jallred\\Documents\\foundry\\public",
     "manifest": "dist",
-    "repository": "",
+    "repository": "https://github.com/wildj79/foundryvtt-market-square",
     "rawURL": ""
   }
 }
