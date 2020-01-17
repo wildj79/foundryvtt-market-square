@@ -9,7 +9,7 @@
 // Import JavaScript modules
 import { registerSettings } from './module/settings.js';
 import { preloadTemplates } from './module/preloadTemplates.js';
-import { MarketConfig } from './module/app/market-config.js';
+import { MarketSheet } from './module/actor/sheet.js';
 
 /* ------------------------------------ */
 /* Initialize module					*/
@@ -18,6 +18,7 @@ Hooks.once('init', async function() {
 	console.log('Market Square | Initializing markets');
 
 	// Assign custom classes and constants here
+	// Actors.registerSheet("market-square", MarketSheet, {types: ["market"], makeDefault: false});
 	
 	// Register custom module settings
 	registerSettings();
