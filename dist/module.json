@@ -1,0 +1,19 @@
+{
+  "name": "market-square",
+  "title": "Market Square",
+  "description": "A simple module usefull for setting up shops and stores to purchase items in Foundry VTT.",
+  "systems": [],
+  "version": "0.1.0",
+  "author": "wildj79",
+  "scripts": [],
+  "esmodules": [
+    "market-square.js"
+  ],
+  "styles": ["market-square.css"],
+  "packs": [],
+  "languages": [],
+  "minimumCoreVersion": "0.4.4",
+  "url": "https://github.com/wildj79/foundryvtt-market-square",
+  "manifest": "http://raw.module.manifest/link.json",
+  "download": "http://your.packaged.module/directory.zip"
+}

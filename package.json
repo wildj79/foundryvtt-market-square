@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "market-square",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "package": "fpc package",
+    "publish": "fpc publish",
+    "build": "fpc build && fpc copy",
+    "clean": "fpc clean && fpc copy --clean"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "foundry-pc-scripts": "gitlab:foundry-projects/foundry-pc/foundry-pc-scripts#master"
+  },
+  "foundry": {
+    "dataPath": "",
+    "manifest": "dist",
+    "repository": "",
+    "rawURL": ""
+  }
+}
